@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001
 
 const app = express()
 
-app.use(express.json)//req.body
+app.use(express.json())//req.body
 app.use((req, res, next) => {
     res.locals.data = {}
     next()
@@ -22,8 +22,8 @@ app.use(require('./config/checkToken'))
 /*
 app.use('/api', routes) <====== Finish code once you got it
 */
-app.use('/api/users', require('./routes/api/users'))
-app.use('/api/board', require('./routes/api/board'))
+// app.use('/api/users', require('./routes/api/users'))
+// app.use('/api/board', require('./routes/api/board'))
 
 app.get('/api/test', (req, res) => {
     res.json({'eureka': 'you have found it'})

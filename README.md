@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# **Load Board for Independent Brokers and Owner Operators**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web-based load board platform designed to connect independent brokers and owner operators with shippers and carriers looking to move freight. The transaction model is similar to Uber or Lyft, allowing owner operators to book freight without needing a major carrier.
 
-## Available Scripts
+## **Features**
+The load board comes with the following features:
 
-In the project directory, you can run:
+Sign up and login for shippers, carriers, and brokers
+Post and search loads and trucks
+View load and truck details including origin, destination, equipment type, and rate
+Send and receive messages to communicate about load and truck details
+Automatic matching of loads and trucks based on location and other criteria
+Ability to manage account settings and notifications
+Integration with popular payment gateways for secure and seamless transactions
+<br>
+## **Technologies Used**
 
-### `npm start`
+This load board is built using modern web technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React.js** - A popular frontend library for building single-page applications
+**Node.js** - A server-side JavaScript runtime for building scalable and performant web applications
+**Express.js** - A lightweight and flexible web framework for Node.js
+**MongoDB** - A popular NoSQL database for storing and retrieving data in a flexible and scalable manner
+**Socket.io** - A library for real-time web communication that enables bidirectional event-based communication between clients and servers
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Getting Started**
 
-### `npm test`
+To get started with this load board, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone this repository to your local machine
+Install the required dependencies by running `npm install` in the root directory
+Create a .env file in the root directory and add your environment variables
+Start the server by running `npm start` in the root directory
+Start the client by running `npm start` in the client directory
+Contributing
+Contributions are welcome and encouraged! To contribute to this project, follow these steps:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork this repository to your own GitHub account and clone it to your local machine
+Create a new branch for your feature or bug fix
+Write tests and code for your feature or bug fix
+Run the tests by running `npm test` in the root directory
+Commit your changes and push them to your forked repository
+Submit a pull request to this repository with a description of your changes
+License
+This load board is licensed under the MIT License. See the <a href="https://www.mit.edu/~amini/LICENSE.md">LICENSE</a> file for more information.
